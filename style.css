@@ -18,6 +18,7 @@ a {
 
 body {
     background-image: url(./images/bg.png);
+    font-size: 15px;
 }
 
 .wrapper {
@@ -39,6 +40,7 @@ body {
     line-height: 200px;
     border-radius: 50%;
     margin-right: 10px;
+    letter-spacing: 0.5em;
 }
 
 .header .icon.logo {
@@ -78,6 +80,9 @@ body {
     height: 300px;
     padding: 50px;
     border-radius: 50px;
+    background-image: url(./images/contents-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .contents h1 {
@@ -85,6 +90,7 @@ body {
     font-weight: bold;
     font-family: 'Montserrat';
     color: orangered;
+    
 }
 
 .contents h1 span {
@@ -94,6 +100,27 @@ body {
     vertical-align: super;
 }
 
+.contents p {
+    margin: 20px 0;
+    color: #999999;
+    line-height: 1.8;
+}
+
+.contents p span {
+    color: green;
+}
+
+.contents p span.head_letter {
+    background-color: orangered;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 footer {
-    background-color: aqua;
+    color: #666666;
+    padding: 20px;
+    text-align: right;
+    letter-spacing: 0.5em;
 }
